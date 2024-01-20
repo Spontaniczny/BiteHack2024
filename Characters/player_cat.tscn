@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://d1dc60qdg6qx"]
+
+[ext_resource type="Script" path="res://Characters/player_cat.gd" id="1_ca8yp"]
+[ext_resource type="Texture2D" uid="uid://da8l75f6ba7w3" path="res://assets/Characters/Basic Charakter Spritesheet.png" id="1_n6mph"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lxoj5"]
+size = Vector2(10, 6)
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_w76hy"]
+
+[node name="PlayerCat" type="CharacterBody2D"]
+script = ExtResource("1_ca8yp")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_n6mph")
+hframes = 4
+vframes = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 5)
+shape = SubResource("RectangleShape2D_lxoj5")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_w76hy")
+}
+
+[node name="AnimationTree" type="AnimationTree" parent="."]
