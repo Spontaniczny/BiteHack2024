@@ -1,8 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1705758435
+::res://::1705764779
 icon.svg::CompressedTexture2D::1767471348015307544::1705756912::1705757008::1::::<><>::
-Main.gd::GDScript::-1::1705758435::0::1::::<>Node<>::
+Main.gd::GDScript::-1::1705759767::0::1::::<>Node<>::
 ::res://assets/::1705757145
 dirt.png::::-1::0::0::0::::<><>::
 ::res://scenes/::1705757145
 node_2d.tscn::PackedScene::8409884004581448653::1705757145::0::1::::<><>::
+::res://scipts/::1705764779
+::res://scipts/plot/::1705764768
+PlotState.gd::GDScript::-1::1705763291::0::1::::<>Node<>::
