@@ -1,3 +1,1861 @@
-[gd_scene format=3 uid="uid://dr22tcl5dmbbx"]
+[gd_scene load_steps=2 format=3 uid="uid://dr22tcl5dmbbx"]
+
+[ext_resource type="Texture2D" uid="uid://biu1uob06i0rl" path="res://assets/dirt.png" id="1_c7df8"]
 
 [node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(20, 20)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(0, 40)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D3" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(0, 80)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Sprite2D/Sprite2D3"]
+position = Vector2(0, 40)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(-1, 159)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Sprite2D/Sprite2D4"]
+position = Vector2(0, 40)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D3" type="Sprite2D" parent="Sprite2D/Sprite2D4"]
+position = Vector2(0, 80)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3"]
+position = Vector2(0, 40)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D5" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(0, 319)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Sprite2D/Sprite2D5"]
+position = Vector2(0, 40)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D3" type="Sprite2D" parent="Sprite2D/Sprite2D5"]
+position = Vector2(0, 80)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3"]
+position = Vector2(0, 40)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Sprite2D/Sprite2D5"]
+position = Vector2(-1, 159)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4"]
+position = Vector2(0, 40)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D3" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4"]
+position = Vector2(0, 80)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3"]
+position = Vector2(0, 40)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D5/Sprite2D4/Sprite2D3/Sprite2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D/Sprite2D"]
+position = Vector2(40, 0)
+texture = ExtResource("1_c7df8")
