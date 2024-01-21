@@ -1,9 +1,11 @@
-[gd_scene load_steps=9 format=3 uid="uid://c2jmaf5qe2e45"]
+[gd_scene load_steps=11 format=3 uid="uid://c2jmaf5qe2e45"]
 
 [ext_resource type="PackedScene" uid="uid://d1dc60qdg6qx" path="res://Characters/player_cat.tscn" id="1_ljvj7"]
-[ext_resource type="Texture2D" uid="uid://cbnd7jd0vb6io" path="res://assets/Tilesets/TX Plant.png" id="2_aclqw"]
-[ext_resource type="Texture2D" uid="uid://72o0igw01k6a" path="res://assets/Tilesets/TX Tileset Grass.png" id="2_gdl53"]
-[ext_resource type="Texture2D" uid="uid://dphxonphb44pa" path="res://assets/Tilesets/TX Tileset Wall.png" id="3_7gw1e"]
+[ext_resource type="Texture2D" uid="uid://dm0d2gxmo1wh2" path="res://assets/Tilesets/TX Plant.png" id="2_aclqw"]
+[ext_resource type="Texture2D" uid="uid://bmbdjkowbtrtw" path="res://assets/Tilesets/TX Tileset Grass.png" id="2_gdl53"]
+[ext_resource type="Texture2D" uid="uid://drp80nxnnc6ck" path="res://assets/Tilesets/TX Tileset Wall.png" id="3_7gw1e"]
+[ext_resource type="PackedScene" uid="uid://1dwifj1lueyk" path="res://scenes/house.tscn" id="5_cgdc4"]
+[ext_resource type="PackedScene" uid="uid://1eqkr1k3fj2f" path="res://scenes/basement.tscn" id="6_ubi8p"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_msp56"]
 texture = ExtResource("2_gdl53")
@@ -2093,6 +2095,7 @@ sources/1 = SubResource("TileSetAtlasSource_5bqer")
 sources/2 = SubResource("TileSetAtlasSource_vo28r")
 
 [node name="main" type="Node2D"]
+y_sort_enabled = true
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_8me4p")
@@ -2108,6 +2111,7 @@ layer_2/tile_data = PackedInt32Array(458767, 851969, 8, 458766, 786433, 8, 65548
 
 [node name="Player" parent="." instance=ExtResource("1_ljvj7")]
 position = Vector2(188, 142)
+collision_layer = 2
 
 [node name="RemoteTransform2D" type="RemoteTransform2D" parent="Player"]
 remote_path = NodePath("../../Camera2D")
@@ -2115,3 +2119,6 @@ remote_path = NodePath("../../Camera2D")
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(188, 142)
 position_smoothing_enabled = true
+
+[node name="House" parent="." instance=ExtResource("5_cgdc4")]
+inside_scene = ExtResource("6_ubi8p")

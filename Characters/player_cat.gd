@@ -7,9 +7,21 @@ extends CharacterBody2D
 @onready var animation_tree = $AnimationTree
 @onready var state_machine = animation_tree.get("parameters/playback")
 
+var house = null 
+
 func _ready():
 	#animation_tree.set("parameters/idle/blend_position", starting_tree)
 	update_animation_parameters(starting_direction)
+  set_house(null)
+
+
+func set_house(new_house):
+	house = new_house
+	
+	
+func _unhandled_input(event):
+	if event is InputEventKey and event.is_action_pressed("Interact") and house != null:
+		house.enter()
 
 func _physics_process(delta):
 	# get input
