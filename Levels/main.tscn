@@ -2701,7 +2701,6 @@ texture = ExtResource("7_sha5h")
 15:15/0/physics_layer_0/angular_velocity = 0.0
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_lkrmv"]
-load_path = "res://.godot/imported/TX Tileset Wall.png-87eb89a8ca458cc3cc22e11c6f57a3cb.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0vvvq"]
 texture = SubResource("CompressedTexture2D_lkrmv")
