@@ -20,6 +20,8 @@ func _on_door_way_body_exited(body):
 
 func enter():
 	if inside_scene:
+		print(inside_scene.resource_path)
+		print(inside_scene.resource_name)		
 		get_tree().change_scene_to_packed(inside_scene)
 	#get_tree().change_scene(inside_scene.resource_path)
 	print("enter house")
