@@ -1,7 +1,29 @@
-[gd_scene load_steps=5 format=3 uid="uid://1dwifj1lueyk"]
+[gd_scene load_steps=6 format=3 uid="uid://1dwifj1lueyk"]
 
-[ext_resource type="Script" path="res://scenes/house.gd" id="1_c6klc"]
 [ext_resource type="Texture2D" uid="uid://b08nr6q6q8fok" path="res://assets/buldings/house.png" id="2_vhnxe"]
+[ext_resource type="Script" path="res://scenes/Area2D_2.gd" id="3_kdjmi"]
+
+[sub_resource type="GDScript" id="GDScript_7lu50"]
+script/source = "extends Node2D
+# Called when the node enters the scene tree for the first time.
+#func _ready():
+	#pass # Replace with function body.
+#
+#
+## Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+	#pass
+	#
+#func _on_door_way_body_entered(body):
+	#body.house = self
+#
+#func _on_door_way_body_exited(body):
+	#if body.house == self:
+		#body.house = null
+#
+#func enter():
+		#get_tree().change_scene_to_file(\"res://scenes/basement.tscn\")
+"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mh38v"]
 size = Vector2(101, 43)
@@ -12,7 +34,7 @@ size = Vector2(29, 28)
 [node name="House" type="Node2D"]
 y_sort_enabled = true
 position = Vector2(-2, 42)
-script = ExtResource("1_c6klc")
+script = SubResource("GDScript_7lu50")
 
 [node name="House" type="Sprite2D" parent="."]
 y_sort_enabled = true
@@ -28,10 +50,14 @@ shape = SubResource("RectangleShape2D_mh38v")
 [node name="DoorWay" type="Area2D" parent="."]
 collision_layer = 0
 collision_mask = 2
+script = ExtResource("3_kdjmi")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DoorWay"]
 position = Vector2(-16, 50)
 shape = SubResource("RectangleShape2D_d2smc")
 
+[connection signal="area_entered" from="DoorWay" to="DoorWay" method="_on_area_entered"]
 [connection signal="body_entered" from="DoorWay" to="." method="_on_door_way_body_entered"]
 [connection signal="body_exited" from="DoorWay" to="." method="_on_door_way_body_exited"]
+[connection signal="body_shape_entered" from="DoorWay" to="DoorWay" method="_on_body_shape_entered"]
+[connection signal="body_shape_exited" from="DoorWay" to="DoorWay" method="_on_body_shape_exited"]

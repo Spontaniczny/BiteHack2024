@@ -1,11 +1,30 @@
-[gd_scene load_steps=12 format=3 uid="uid://1eqkr1k3fj2f"]
+[gd_scene load_steps=14 format=3 uid="uid://1eqkr1k3fj2f"]
 
-[ext_resource type="Script" path="res://scenes/basement.gd" id="1_k6qd2"]
 [ext_resource type="Texture2D" uid="uid://brlr6dh5vtj3h" path="res://assets/Tilesets/TX Tileset Stone Ground.png" id="2_slpvk"]
 [ext_resource type="Texture2D" uid="uid://ciwf07lv4y3gc" path="res://assets/Tilesets/TX Props.png" id="3_ub7n6"]
 [ext_resource type="Texture2D" uid="uid://drp80nxnnc6ck" path="res://assets/Tilesets/TX Tileset Wall.png" id="3_vdd5j"]
 [ext_resource type="Texture2D" uid="uid://cly0r2r1ird43" path="res://assets/Tilesets/TX Shadow.png" id="4_a5fl4"]
 [ext_resource type="PackedScene" uid="uid://d1dc60qdg6qx" path="res://Characters/player_cat.tscn" id="5_u8v0l"]
+[ext_resource type="Script" path="res://scenes/Area2D_1.gd" id="7_q1d2w"]
+
+[sub_resource type="GDScript" id="GDScript_rah82"]
+script/source = "extends Node2D
+
+
+## Called when the node enters the scene tree for the first time.
+#func _ready():
+	#y_sort_enabled = true
+	#pass # Replace with function body.
+#
+#
+## Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+	#pass
+#
+#
+#func _on_area_2d_area_entered(area):
+	#pass # Replace with function body.
+"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3mb4x"]
 texture = ExtResource("2_slpvk")
@@ -3379,9 +3398,12 @@ sources/1 = SubResource("TileSetAtlasSource_0vvvq")
 sources/2 = SubResource("TileSetAtlasSource_fmcgq")
 sources/3 = SubResource("TileSetAtlasSource_aht5h")
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6oyvw"]
+size = Vector2(63, 53)
+
 [node name="Basement" type="Node2D"]
 y_sort_enabled = true
-script = ExtResource("1_k6qd2")
+script = SubResource("GDScript_rah82")
 
 [node name="TileMap" type="TileMap" parent="."]
 y_sort_enabled = true
@@ -3416,3 +3438,13 @@ position = Vector2(731, 100)
 
 [node name="RemoteTransform2D" type="RemoteTransform2D" parent="PlayerCat"]
 remote_path = NodePath("../../Camera2D")
+
+[node name="BasementExit" type="Area2D" parent="."]
+script = ExtResource("7_q1d2w")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BasementExit"]
+position = Vector2(735.5, 93.5)
+shape = SubResource("RectangleShape2D_6oyvw")
+
+[connection signal="body_shape_entered" from="BasementExit" to="BasementExit" method="_on_body_shape_entered"]
+[connection signal="body_shape_exited" from="BasementExit" to="BasementExit" method="_on_body_shape_exited"]
