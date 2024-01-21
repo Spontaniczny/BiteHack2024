@@ -1,15 +1,16 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1705820672
+::res://::1705831067
 icon.svg::CompressedTexture2D::1767471348015307544::1705759745::1705813163::1::::<><>::
 Main.gd::GDScript::-1::1705759745::0::1::::<>Node<>::
-WorldState.gd::GDScript::-1::1705809315::0::1::::WorldState<>Node<>::
+WorldState.gd::GDScript::-1::1705828220::0::1::::WorldState<>Node<>::
 ::res://assets/::1705820473
 dirt.png::::-1::0::0::0::::<><>::
 ::res://assets/buldings/::1705813163
 house.png::CompressedTexture2D::4210087574302138466::1705809312::1705813163::1::::<><>::
-::res://assets/Characters/::1705813163
+::res://assets/Characters/::1705831553
 Basic Charakter Actions.png::CompressedTexture2D::832321809160647556::1705771548::1705813163::1::::<><>::
 Basic Charakter Spritesheet.png::CompressedTexture2D::7228113134123062200::1705771548::1705813163::1::::<><>::
+corpse.png::CompressedTexture2D::7221893534382131289::1705831551::1705831552::1::::<><>::
 Egg_And_Nest.png::CompressedTexture2D::155354998147319362::1705771548::1705813163::1::::<><>::
 Free Chicken Sprites.png::CompressedTexture2D::1734554445044780556::1705771548::1705813163::1::::<><>::
 Free Cow Sprites.png::CompressedTexture2D::6953904870611874909::1705771548::1705813163::1::::<><>::
@@ -21,7 +22,7 @@ Maid-1.png::CompressedTexture2D::5489819339930065703::1705809315::1705813163::1:
 Tools.png::CompressedTexture2D::7728140433641817349::1705771548::1705813163::1::::<><>::
 ::res://assets/Fonts/::1705813163
 Minecraft.ttf::FontFile::526210920096602694::1705809315::1705813163::1::::<><>::
-::res://assets/Items/::1705821650
+::res://assets/Items/::1705821716
 BigTreasureChest.png::CompressedTexture2D::4417730006274266551::1614254847::1705821716::1::::<><>::
 Coin2.png::CompressedTexture2D::2159934024561926345::1614254806::1705821716::1::::<><>::
 GoldCoin.png::CompressedTexture2D::3375138486912502275::1614254726::1705821716::1::::<><>::
@@ -30,84 +31,84 @@ Letter2.png::CompressedTexture2D::704037548635008351::1659267893::1705821716::1:
 Letter3.png::CompressedTexture2D::7805190783922810882::1659267905::1705821716::1::::<><>::
 Letter.png::CompressedTexture2D::5715508714825304658::1659267885::1705821716::1::::<><>::
 SilverCoin.png::CompressedTexture2D::5873637920889648361::1614254588::1705821716::1::::<><>::
-::res://assets/Items/Food/::1705821322
+::res://assets/Items/Food/::1705821716
 apple.png::CompressedTexture2D::6550705605346373008::1648667948::1705821716::1::::<><>::
 bread.png::CompressedTexture2D::3801265842402421300::1610421930::1705821716::1::::<><>::
 carrot.png::CompressedTexture2D::342561825502767812::1648667866::1705821716::1::::<><>::
 ChickenLeg.png::CompressedTexture2D::4989742976445220119::1705820629::1705821716::1::::<><>::
 cupcake.png::CompressedTexture2D::6538333364944157497::1648667970::1705821716::1::::<><>::
 FOOD.png::CompressedTexture2D::4243745611789518675::1540887734::1705821716::1::::<><>::
-::res://assets/Items/houses+more/::1705821656
+::res://assets/Items/houses+more/::1705821716
 Serene_Village_16x16.png::CompressedTexture2D::6496006057474915852::1616365576::1705821716::1::::<><>::
 Serene_Village_32x32.png::CompressedTexture2D::6257174658873587896::1616365594::1705821716::1::::<><>::
 Serene_Village_48x48.png::CompressedTexture2D::921593846724648006::1616365654::1705821716::1::::<><>::
 ::res://assets/Items/Weapons/::1705821411
-::res://assets/Items/Weapons/Axe/::1692523922
+::res://assets/Items/Weapons/Axe/::1705821716
 Sprite.png::CompressedTexture2D::388871371941355874::1614251090::1705821716::1::::<><>::
 SpriteInHand.png::CompressedTexture2D::631865727726618233::1614251096::1705821716::1::::<><>::
-::res://assets/Items/Weapons/AxeTool/::1692523922
+::res://assets/Items/Weapons/AxeTool/::1705821716
 Sprite.png::CompressedTexture2D::6137913485775589602::1659269728::1705821716::1::::<><>::
 SpriteInHand.png::CompressedTexture2D::1077384182598798136::1659269743::1705821716::1::::<><>::
-::res://assets/Items/Weapons/BigSword/::1692523922
+::res://assets/Items/Weapons/BigSword/::1705821716
 Sprite.png::CompressedTexture2D::959273979410981336::1619461418::1705821716::1::::<><>::
 SpriteInHand.png::CompressedTexture2D::4158919417072909994::1616260755::1705821716::1::::<><>::
-::res://assets/Items/Weapons/Bone/::1692523922
+::res://assets/Items/Weapons/Bone/::1705821716
 Sprite.png::CompressedTexture2D::2665166148648120652::1616260795::1705821716::1::::<><>::
 SpriteInHand.png::CompressedTexture2D::8775988009552970320::1616260806::1705821716::1::::<><>::
-::res://assets/Items/Weapons/Book/::1692523922
+::res://assets/Items/Weapons/Book/::1705821716
 Sprite.png::CompressedTexture2D::6192531203419687172::1616260833::1705821716::1::::<><>::
 SpriteInHand.png::CompressedTexture2D::4623205079262996470::1616260842::1705821716::1::::<><>::
-::res://assets/Items/Weapons/Bow/::1692523922
+::res://assets/Items/Weapons/Bow/::1705821716
 Arrow.png::CompressedTexture2D::6087158122558800973::1614251525::1705821716::1::::<><>::
 Sprite.png::CompressedTexture2D::6059635384906784838::1614251467::1705821716::1::::<><>::
-::res://assets/Items/Weapons/Bow2/::1692523922
+::res://assets/Items/Weapons/Bow2/::1705821716
 Arrow.png::CompressedTexture2D::569928497296920269::1616261192::1705821716::1::::<><>::
 Sprite.png::CompressedTexture2D::5804991535381517765::1616261187::1705821716::1::::<><>::
-::res://assets/Items/Weapons/Club/::1692523922
+::res://assets/Items/Weapons/Club/::1705821716
 Sprite.png::CompressedTexture2D::7050902988056458930::1616260865::1705821716::1::::<><>::
 SpriteInHand.png::CompressedTexture2D::7360082776014149651::1616260875::1705821716::1::::<><>::
-::res://assets/Items/Weapons/Fishing Rod/::1692523922
+::res://assets/Items/Weapons/Fishing Rod/::1705821716
 Sprite.png::CompressedTexture2D::8756162379948739302::1659291780::1705821716::1::::<><>::
-::res://assets/Items/Weapons/Fork/::1692523922
+::res://assets/Items/Weapons/Fork/::1705821716
 Sprite.png::CompressedTexture2D::136747694945310603::1614251161::1705821716::1::::<><>::
 SpriteInHand.png::CompressedTexture2D::8593409876406332843::1614251168::1705821716::1::::<><>::
-::res://assets/Items/Weapons/Hammer/::1692523922
+::res://assets/Items/Weapons/Hammer/::1705821716
 Sprite.png::CompressedTexture2D::103721327210841779::1614251222::1705821716::1::::<><>::
 SpriteInHand.png::CompressedTexture2D::5822587735700066055::1614251228::1705821716::1::::<><>::
-::res://assets/Items/Weapons/Katana/::1692523922
+::res://assets/Items/Weapons/Katana/::1705821716
 Sprite.png::CompressedTexture2D::2044820496135612680::1614251431::1705821716::1::::<><>::
 SpriteInHand.png::CompressedTexture2D::4940662574406679213::1614250713::1705821716::1::::<><>::
-::res://assets/Items/Weapons/Lance/::1692523922
+::res://assets/Items/Weapons/Lance/::1705821716
 Sprite.png::CompressedTexture2D::1721884180520816992::1614251388::1705821716::1::::<><>::
 SpriteInHand.png::CompressedTexture2D::4149827505206421451::1614250718::1705821716::1::::<><>::
-::res://assets/Items/Weapons/Lance2/::1692523922
+::res://assets/Items/Weapons/Lance2/::1705821716
 Sprite.png::CompressedTexture2D::4730044583141075718::1616260921::1705821716::1::::<><>::
 SpriteInHand.png::CompressedTexture2D::1368437165538390::1616260913::1705821716::1::::<><>::
-::res://assets/Items/Weapons/MagicWand/::1692523922
+::res://assets/Items/Weapons/MagicWand/::1705821716
 Sprite.png::CompressedTexture2D::5146356004692745393::1616261009::1705821716::1::::<><>::
 SpriteInHand.png::CompressedTexture2D::2271868485139608240::1616261019::1705821716::1::::<><>::
-::res://assets/Items/Weapons/Ninjaku/::1692523922
+::res://assets/Items/Weapons/Ninjaku/::1705821716
 Sprite.png::CompressedTexture2D::3005683342365459565::1616260969::1705821716::1::::<><>::
 SpriteInHand.png::CompressedTexture2D::7050960037071451378::1616260980::1705821716::1::::<><>::
-::res://assets/Items/Weapons/Pickaxe/::1692523922
+::res://assets/Items/Weapons/Pickaxe/::1705821716
 Sprite.png::CompressedTexture2D::7930537013591404021::1659269772::1705821716::1::::<><>::
 SpriteInHand.png::CompressedTexture2D::6033661792701201110::1659269783::1705821716::1::::<><>::
-::res://assets/Items/Weapons/Rapier/::1692523922
+::res://assets/Items/Weapons/Rapier/::1705821716
 Sprite.png::CompressedTexture2D::3064148890896983731::1616261152::1705821716::1::::<><>::
 SpriteInHand.png::CompressedTexture2D::8845333416747266495::1616261161::1705821716::1::::<><>::
-::res://assets/Items/Weapons/Sai/::1692523922
+::res://assets/Items/Weapons/Sai/::1705821716
 Sprite.png::CompressedTexture2D::3509750093986403828::1614251357::1705821716::1::::<><>::
 SpriteInHand.png::CompressedTexture2D::5376421233120598724::1614251349::1705821716::1::::<><>::
-::res://assets/Items/Weapons/Stick/::1692523922
+::res://assets/Items/Weapons/Stick/::1705821716
 Sprite.png::CompressedTexture2D::725969528117325248::1616261050::1705821716::1::::<><>::
 SpriteInHand.png::CompressedTexture2D::5054434562744956661::1616261058::1705821716::1::::<><>::
-::res://assets/Items/Weapons/Sword/::1692523922
+::res://assets/Items/Weapons/Sword/::1705821716
 Sprite.png::CompressedTexture2D::1927421854773265759::1614251303::1705821716::1::::<><>::
 SpriteInHand.png::CompressedTexture2D::2413063832800974229::1614251314::1705821716::1::::<><>::
-::res://assets/Items/Weapons/Sword2/::1692523922
+::res://assets/Items/Weapons/Sword2/::1705821716
 Sprite.png::CompressedTexture2D::7511199618120091834::1616261122::1705821716::1::::<><>::
 SpriteInHand.png::CompressedTexture2D::2590722586217865507::1616261129::1705821716::1::::<><>::
-::res://assets/Items/Weapons/Whip/::1692523922
+::res://assets/Items/Weapons/Whip/::1705821716
 Sprite.png::CompressedTexture2D::5292465844025396876::1616261085::1705821716::1::::<><>::
 SpriteInHand.png::CompressedTexture2D::1210467182752537335::1616261094::1705821716::1::::<><>::
 ::res://assets/Tilesets/::1705813163
@@ -125,36 +126,45 @@ TX Struct.png::CompressedTexture2D::954328675346409753::1705771548::1705813163::
 TX Tileset Grass.png::CompressedTexture2D::3230949956089438920::1705771548::1705813163::1::::<><>::
 TX Tileset Stone Ground.png::CompressedTexture2D::3603426899097956043::1705771548::1705813163::1::::<><>::
 TX Tileset Wall.png::CompressedTexture2D::8385487083787866890::1705771548::1705813163::1::::<><>::
-::res://Characters/::1705820125
+::res://Characters/::1705827670
 npc_gardener.gd::GDScript::-1::1705809315::0::1::::<>CharacterBody2D<>::
 npc_gardener.tscn::PackedScene::2682096208908626152::1705809315::0::1::::<><>::res://Characters/npc_maid.gd<>uid://uelgkaarku3e::::res://assets/Characters/Gardener.png
 npc_maid.gd::GDScript::-1::1705809315::0::1::::<>CharacterBody2D<>::
 npc_maid.tscn::PackedScene::6060629996590411679::1705809315::0::1::::<><>::res://Characters/npc_maid.gd<>uid://ckhkr07u1dgn4::::res://assets/Characters/Maid-1.png
-player_cat.gd::GDScript::-1::1705809315::0::1::::<>CharacterBody2D<>::
-player_cat.tscn::PackedScene::264427742660973395::1705820125::0::1::::<><>::res://Characters/player_cat.gd<>uid://cjrqqde36ay8q::::res://assets/Characters/Knight.png
-::res://Levels/::1705820672
-main.tscn::PackedScene::6687248459007074208::1705820125::0::1::::<><>::uid://d1dc60qdg6qx::::res://Characters/player_cat.tscn<>uid://dm0d2gxmo1wh2::::res://assets/Tilesets/TX Plant.png<>uid://bmbdjkowbtrtw::::res://assets/Tilesets/TX Tileset Grass.png<>uid://drp80nxnnc6ck::::res://assets/Tilesets/TX Tileset Wall.png<>uid://1dwifj1lueyk::::res://scenes/house.tscn<>res://scenes/basement.gd<>uid://brlr6dh5vtj3h::::res://assets/Tilesets/TX Tileset Stone Ground.png<>uid://ciwf07lv4y3gc::::res://assets/Tilesets/TX Props.png<>uid://cly0r2r1ird43::::res://assets/Tilesets/TX Shadow.png
+player_cat.gd::GDScript::-1::1705827670::0::1::::<>CharacterBody2D<>::
+player_cat.tscn::PackedScene::264427742660973395::1705827670::0::1::::<><>::res://Characters/player_cat.gd<>uid://cjrqqde36ay8q::::res://assets/Characters/Knight.png
+::res://Levels/::1705831555
+main.tscn::PackedScene::6687248459007074208::1705831555::0::1::::<><>::uid://d1dc60qdg6qx::::res://Characters/player_cat.tscn<>uid://dm0d2gxmo1wh2::::res://assets/Tilesets/TX Plant.png<>uid://bmbdjkowbtrtw::::res://assets/Tilesets/TX Tileset Grass.png<>uid://drp80nxnnc6ck::::res://assets/Tilesets/TX Tileset Wall.png<>uid://1dwifj1lueyk::::res://scenes/house.tscn<>res://scenes/basement.gd<>uid://brlr6dh5vtj3h::::res://assets/Tilesets/TX Tileset Stone Ground.png<>uid://ciwf07lv4y3gc::::res://assets/Tilesets/TX Props.png<>uid://cly0r2r1ird43::::res://assets/Tilesets/TX Shadow.png<>uid://dslud28t6ch5m::::res://Objects/World.tscn<>uid://ca00b4yexwpku::::res://Objects/WateringCan.tscn<>res://Objects/Apple.tscn
 npc_test.tscn::PackedScene::7305342587159602997::1705813170::0::1::::<><>::uid://bmbdjkowbtrtw::::res://assets/Tilesets/TX Tileset Grass.png<>uid://dm0d2gxmo1wh2::::res://assets/Tilesets/TX Plant.png<>uid://drp80nxnnc6ck::::res://assets/Tilesets/TX Tileset Wall.png<>uid://d1dc60qdg6qx::::res://Characters/player_cat.tscn<>res://Characters/npc_maid.tscn<>res://Characters/npc_gardener.tscn
-prototype.tscn::PackedScene::1214386322939921211::1705813170::0::1::::<><>::res://WorldState.gd<>uid://bmbdjkowbtrtw::::res://assets/Tilesets/TX Tileset Grass.png<>uid://dm0d2gxmo1wh2::::res://assets/Tilesets/TX Plant.png<>uid://drp80nxnnc6ck::::res://assets/Tilesets/TX Tileset Wall.png<>uid://d1dc60qdg6qx::::res://Characters/player_cat.tscn<>uid://ca00b4yexwpku::::res://Objects/WateringCan.tscn<>res://Objects/AchievementPopUp.gd<>uid://hq5u8hsbyvqc::::res://assets/Fonts/Minecraft.ttf
-::res://Objects/::1705820672
+prototype.tscn::PackedScene::4819711207571893220::1705820672::0::1::::<><>::res://WorldState.gd<>uid://bmbdjkowbtrtw::::res://assets/Tilesets/TX Tileset Grass.png<>uid://dm0d2gxmo1wh2::::res://assets/Tilesets/TX Plant.png<>uid://drp80nxnnc6ck::::res://assets/Tilesets/TX Tileset Wall.png<>uid://d1dc60qdg6qx::::res://Characters/player_cat.tscn<>uid://ca00b4yexwpku::::res://Objects/WateringCan.tscn<>res://Objects/AchievementPopUp.gd<>uid://hq5u8hsbyvqc::::res://assets/Fonts/Minecraft.ttf
+Apple.gd::GDScript::-1::1705826711::0::1::::<>Sprite2D<>::
+Area2D2.gd::GDScript::-1::1705825726::0::1::::<>Area2D<>::
+::res://Objects/::1705831555
 AchievementPopUp.gd::GDScript::-1::1705809315::0::1::::<>PopupPanel<>::
-AchievementPopUp.tscn::PackedScene::1096991625296668555::1705809315::0::1::::<><>::
-WateringCan.tscn::PackedScene::4825972082316582980::1705809315::0::1::::<><>::uid://didtlxqsvsxlt::::res://assets/Characters/Tools.png<>res://Objects/WateringCanArea.gd
+AchievementPopUp.tscn::PackedScene::1096991625296668555::1705825659::0::1::::<><>::
+Apple.gd::GDScript::-1::1705828220::0::1::::<>Sprite2D<>::
+Apple.tscn::PackedScene::-1::1705828220::0::1::::<><>::
+ChoiceDialog.gd::GDScript::-1::1705822080::0::1::::<>PopupPanel<>::
+MessageDialog.gd::GDScript::-1::1705822080::0::1::::<>PopupPanel<>::
+TimerDisplay.gd::GDScript::-1::1705828220::0::1::::<>PopupPanel<>::
+WateringCan.tscn::PackedScene::4825972082316582980::1705831555::0::1::::<><>::uid://didtlxqsvsxlt::::res://assets/Characters/Tools.png<>res://Objects/WateringCanArea.gd
 WateringCanArea.gd::GDScript::-1::1705809315::0::1::::<>Area2D<>::
-World.tscn::PackedScene::-1::1705820672::0::1::::<><>::
+World.tscn::PackedScene::8446590559109374404::1705827670::0::1::::<><>::res://WorldState.gd<>res://Objects/AchievementPopUp.gd<>uid://hq5u8hsbyvqc::::res://assets/Fonts/Minecraft.ttf<>res://Objects/ChoiceDialog.gd<>res://Objects/MessageDialog.gd
 ::res://saves/::1705809315
 achievements.json::JSON::-1::1705809315::0::1::::<><>::
-::res://scenes/::1705820124
+::res://scenes/::1705831556
 basement.gd::GDScript::-1::1705809312::0::1::::<>Node2D<>::
-basement.tscn::PackedScene::1834157708982240231::1705820124::0::1::::<><>::res://scenes/basement.gd<>uid://brlr6dh5vtj3h::::res://assets/Tilesets/TX Tileset Stone Ground.png<>uid://ciwf07lv4y3gc::::res://assets/Tilesets/TX Props.png<>uid://drp80nxnnc6ck::::res://assets/Tilesets/TX Tileset Wall.png<>uid://cly0r2r1ird43::::res://assets/Tilesets/TX Shadow.png<>uid://d1dc60qdg6qx::::res://Characters/player_cat.tscn
+basement.tscn::PackedScene::1834157708982240231::1705831556::0::1::::<><>::res://scenes/basement.gd<>uid://brlr6dh5vtj3h::::res://assets/Tilesets/TX Tileset Stone Ground.png<>uid://ciwf07lv4y3gc::::res://assets/Tilesets/TX Props.png<>uid://drp80nxnnc6ck::::res://assets/Tilesets/TX Tileset Wall.png<>uid://cly0r2r1ird43::::res://assets/Tilesets/TX Shadow.png<>uid://d1dc60qdg6qx::::res://Characters/player_cat.tscn<>uid://da5lscjlpn05b::::res://assets/Characters/corpse.png
 house.gd::GDScript::-1::1705820118::0::1::::<>Node2D<>::
 house.tscn::PackedScene::1832453405759925402::1705811284::0::1::::<><>::res://scenes/house.gd<>uid://b08nr6q6q8fok::::res://assets/buldings/house.png
 interior.tscn::PackedScene::3966370244177612794::1705809312::0::1::::<><>::uid://v8ueusj7w4g4::::res://assets/Tilesets/TopDownHouse_FloorsAndWalls.png<>uid://cjccpl3gsgks6::::res://assets/Tilesets/TopDownHouse_FurnitureState2.png<>uid://ciwf07lv4y3gc::::res://assets/Tilesets/TX Props.png<>uid://8pibs5xwjabp::::res://assets/Tilesets/TopDownHouse_DoorsAndWindows.png
 main.tscn::PackedScene::1226447618555226141::1705809315::0::1::::<><>::res://WorldState.gd
 ::res://scripts/::1705809315
-::res://scripts/achievements/::1705809315
+::res://scripts/achievements/::1705828220
 AchievementProperties.gd::GDScript::-1::1705809315::0::1::::AchievementProperties<>RefCounted<>::
-Collection.gd::GDScript::-1::1705809315::0::1::::Collection<>Node<>::
-::res://scripts/plot/::1705809315
+Collection.gd::GDScript::-1::1705828220::0::1::::Collection<>Node<>::
+::res://scripts/plot/::1705828220
+Choice.gd::GDScript::-1::1705822080::0::1::::Choice<>RefCounted<>::
+Inventory.gd::GDScript::-1::1705828220::0::1::::Inventory<>RefCounted<>::
 Plot.gd::GDScript::-1::1705809315::0::1::::<>Node<>::
 Trigger.gd::GDScript::-1::1705771548::0::1::::Trigger<>Node<>::

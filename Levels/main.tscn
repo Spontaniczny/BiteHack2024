@@ -11,7 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://cly0r2r1ird43" path="res://assets/Tilesets/TX Shadow.png" id="9_85kw6"]
 [ext_resource type="PackedScene" uid="uid://dslud28t6ch5m" path="res://Objects/World.tscn" id="10_buo5g"]
 [ext_resource type="PackedScene" uid="uid://ca00b4yexwpku" path="res://Objects/WateringCan.tscn" id="11_5il5w"]
-[ext_resource type="PackedScene" uid="uid://bb2h3gihj38xc" path="res://Objects/Apple.tscn" id="12_5jqmp"]
+[ext_resource type="PackedScene" path="res://Objects/Apple.tscn" id="12_5jqmp"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_msp56"]
 texture = ExtResource("2_gdl53")
