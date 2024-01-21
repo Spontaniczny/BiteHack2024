@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://8gfm2rkigder"
-path="res://.godot/imported/TX Player.png-07da901eadadbb1334dcfb4b106d0289.ctex"
+uid="uid://ckhkr07u1dgn4"
+path="res://.godot/imported/Maid-1.png-014fc5f40c7f55483602fff0ad605264.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Tilesets/TX Player.png"
-dest_files=["res://.godot/imported/TX Player.png-07da901eadadbb1334dcfb4b106d0289.ctex"]
+source_file="res://assets/Characters/Maid-1.png"
+dest_files=["res://.godot/imported/Maid-1.png-014fc5f40c7f55483602fff0ad605264.ctex"]
 
 [params]
 

@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://pvnj6k0x8cdf"]
+
+[node name="AchievementPopUp" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Canvas" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="Canvas"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0

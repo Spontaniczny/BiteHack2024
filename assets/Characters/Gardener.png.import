@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://8gfm2rkigder"
-path="res://.godot/imported/TX Player.png-07da901eadadbb1334dcfb4b106d0289.ctex"
+uid="uid://uelgkaarku3e"
+path="res://.godot/imported/Gardener.png-ee69781d8093d2728186e3761df71e5d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Tilesets/TX Player.png"
-dest_files=["res://.godot/imported/TX Player.png-07da901eadadbb1334dcfb4b106d0289.ctex"]
+source_file="res://assets/Characters/Gardener.png"
+dest_files=["res://.godot/imported/Gardener.png-ee69781d8093d2728186e3761df71e5d.ctex"]
 
 [params]
 
