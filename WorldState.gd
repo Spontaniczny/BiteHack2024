@@ -14,7 +14,7 @@ enum State {
 var current: State
 var achievements: Collection
 
-@onready var achievement_popup_scene = get_node("AchievementPopUp")
+@onready var achievement_popup_scene = get_node("Interface/AchievementPopUp")
 
 func _init():
 	current = State.INIT

@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://c2jmaf5qe2e45"]
+[gd_scene load_steps=23 format=3 uid="uid://c2jmaf5qe2e45"]
 
 [ext_resource type="PackedScene" uid="uid://d1dc60qdg6qx" path="res://Characters/player_cat.tscn" id="1_ljvj7"]
 [ext_resource type="Texture2D" uid="uid://dm0d2gxmo1wh2" path="res://assets/Tilesets/TX Plant.png" id="2_aclqw"]
@@ -9,6 +9,8 @@
 [ext_resource type="Texture2D" uid="uid://brlr6dh5vtj3h" path="res://assets/Tilesets/TX Tileset Stone Ground.png" id="7_sha5h"]
 [ext_resource type="Texture2D" uid="uid://ciwf07lv4y3gc" path="res://assets/Tilesets/TX Props.png" id="8_ge64u"]
 [ext_resource type="Texture2D" uid="uid://cly0r2r1ird43" path="res://assets/Tilesets/TX Shadow.png" id="9_85kw6"]
+[ext_resource type="PackedScene" uid="uid://dslud28t6ch5m" path="res://Objects/World.tscn" id="10_buo5g"]
+[ext_resource type="PackedScene" uid="uid://ca00b4yexwpku" path="res://Objects/WateringCan.tscn" id="11_5il5w"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_msp56"]
 texture = ExtResource("2_gdl53")
@@ -5509,7 +5511,7 @@ layer_2/tile_data = PackedInt32Array(458767, 851969, 8, 458766, 786433, 8, 65548
 
 [node name="PlayerCat" parent="." instance=ExtResource("1_ljvj7")]
 position = Vector2(188, 142)
-collision_layer = 2
+collision_layer = 3
 
 [node name="RemoteTransform2D" type="RemoteTransform2D" parent="PlayerCat"]
 remote_path = NodePath("../../Camera2D")
@@ -5520,3 +5522,11 @@ position_smoothing_enabled = true
 
 [node name="House" parent="." instance=ExtResource("5_cgdc4")]
 inside_scene = SubResource("PackedScene_cetbi")
+
+[node name="World" parent="." instance=ExtResource("10_buo5g")]
+
+[node name="WateringCan" parent="." instance=ExtResource("11_5il5w")]
+
+[connection signal="achieved" from="WateringCan" to="World" method="_on_watering_can_achieved"]
+[connection signal="activated" from="WateringCan" to="World" method="_on_watering_can_activated"]
+[connection signal="skipped" from="WateringCan" to="World" method="_on_watering_can_skipped"]
