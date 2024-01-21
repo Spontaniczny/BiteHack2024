@@ -1,8 +1,10 @@
-[gd_scene load_steps=9 format=3 uid="uid://dslud28t6ch5m"]
+[gd_scene load_steps=12 format=3 uid="uid://dslud28t6ch5m"]
 
 [ext_resource type="Script" path="res://WorldState.gd" id="1_rhrim"]
 [ext_resource type="Script" path="res://Objects/AchievementPopUp.gd" id="2_fev1l"]
 [ext_resource type="FontFile" uid="uid://hq5u8hsbyvqc" path="res://assets/Fonts/Minecraft.ttf" id="3_3rw6b"]
+[ext_resource type="Script" path="res://Objects/ChoiceDialog.gd" id="4_vpq7k"]
+[ext_resource type="Script" path="res://Objects/MessageDialog.gd" id="5_7tw3j"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_qcc7f"]
 font = ExtResource("3_3rw6b")
@@ -22,6 +24,10 @@ font_color = Color(0, 0, 0, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_1wjkt"]
 font_size = 12
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_q3xvg"]
+font = ExtResource("3_3rw6b")
 font_color = Color(0, 0, 0, 1)
 
 [node name="World" type="Node"]
@@ -87,6 +93,7 @@ vertical_alignment = 2
 
 [node name="ChoiceDialog" type="PopupPanel" parent="Interface"]
 size = Vector2i(120, 130)
+script = ExtResource("4_vpq7k")
 
 [node name="ColorRect" type="ColorRect" parent="Interface/ChoiceDialog"]
 offset_left = 4.0
@@ -104,7 +111,7 @@ theme_override_constants/separation = 8
 layout_mode = 2
 theme_override_constants/separation = 1
 
-[node name="Label" type="Label" parent="Interface/ChoiceDialog/ColorRect/VBoxContainer2/VBoxContainer2"]
+[node name="Title" type="Label" parent="Interface/ChoiceDialog/ColorRect/VBoxContainer2/VBoxContainer2"]
 layout_mode = 2
 text = "Choose:"
 label_settings = SubResource("LabelSettings_4nxfh")
@@ -127,4 +134,30 @@ text = "Option 1"
 layout_mode = 2
 text = "Option 2"
 
+[node name="MessageDialog" type="PopupPanel" parent="Interface"]
+position = Vector2i(40, 0)
+size = Vector2i(350, 50)
+script = ExtResource("5_7tw3j")
+
+[node name="ColorRect" type="ColorRect" parent="Interface/MessageDialog"]
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 346.0
+offset_bottom = 46.0
+color = Color(1, 0.964706, 0.8, 1)
+
+[node name="Container" type="MarginContainer" parent="Interface/MessageDialog/ColorRect"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+theme_override_constants/margin_left = 15
+
+[node name="Text" type="Label" parent="Interface/MessageDialog/ColorRect/Container"]
+layout_mode = 2
+text = "Sample text"
+label_settings = SubResource("LabelSettings_q3xvg")
+
 [node name="GameTime" type="Timer" parent="."]
+
+[connection signal="no" from="Interface/ChoiceDialog" to="." method="_on_choice_dialog_no"]
+[connection signal="yes" from="Interface/ChoiceDialog" to="." method="_on_choice_dialog_yes"]
