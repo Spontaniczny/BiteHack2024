@@ -1,10 +1,11 @@
-[gd_scene load_steps=12 format=3 uid="uid://dslud28t6ch5m"]
+[gd_scene load_steps=14 format=3 uid="uid://dslud28t6ch5m"]
 
 [ext_resource type="Script" path="res://WorldState.gd" id="1_rhrim"]
 [ext_resource type="Script" path="res://Objects/AchievementPopUp.gd" id="2_fev1l"]
 [ext_resource type="FontFile" uid="uid://hq5u8hsbyvqc" path="res://assets/Fonts/Minecraft.ttf" id="3_3rw6b"]
 [ext_resource type="Script" path="res://Objects/ChoiceDialog.gd" id="4_vpq7k"]
 [ext_resource type="Script" path="res://Objects/MessageDialog.gd" id="5_7tw3j"]
+[ext_resource type="Script" path="res://Objects/TimerDisplay.gd" id="6_y3min"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_qcc7f"]
 font = ExtResource("3_3rw6b")
@@ -28,6 +29,9 @@ font_color = Color(0, 0, 0, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_q3xvg"]
 font = ExtResource("3_3rw6b")
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_j6ap0"]
 font_color = Color(0, 0, 0, 1)
 
 [node name="World" type="Node"]
@@ -157,7 +161,19 @@ layout_mode = 2
 text = "Sample text"
 label_settings = SubResource("LabelSettings_q3xvg")
 
+[node name="TimerDisplay" type="PopupPanel" parent="Interface"]
+script = ExtResource("6_y3min")
+
+[node name="Label" type="Label" parent="Interface/TimerDisplay"]
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 96.0
+offset_bottom = 96.0
+text = "Sample text"
+label_settings = SubResource("LabelSettings_j6ap0")
+
 [node name="GameTime" type="Timer" parent="."]
 
 [connection signal="no" from="Interface/ChoiceDialog" to="." method="_on_choice_dialog_no"]
 [connection signal="yes" from="Interface/ChoiceDialog" to="." method="_on_choice_dialog_yes"]
+[connection signal="timeout" from="GameTime" to="Interface/TimerDisplay" method="_on_game_time_timeout"]

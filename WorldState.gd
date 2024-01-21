@@ -65,3 +65,20 @@ func _on_choice_dialog_yes():
 	match current:
 		_:
 			pass
+
+func _on_apple_achieved():
+	const ach = Collection.Achievement.APPLE
+	
+	if achievements.is_acquired(ach): 
+		return
+	
+	achievements.acquire(ach)
+	
+	#print("Got achievement: Pick up watering can") # call mini window display instead
+	_show_achievement_popup(ach)
+
+func _on_apple_activated():
+	inventory.acquire(Inventory.Item.APPLE)
+
+func _on_apple_skipped():
+	pass

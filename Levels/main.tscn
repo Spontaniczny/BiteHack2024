@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=3 uid="uid://c2jmaf5qe2e45"]
+[gd_scene load_steps=24 format=3 uid="uid://c2jmaf5qe2e45"]
 
 [ext_resource type="PackedScene" uid="uid://d1dc60qdg6qx" path="res://Characters/player_cat.tscn" id="1_ljvj7"]
 [ext_resource type="Texture2D" uid="uid://dm0d2gxmo1wh2" path="res://assets/Tilesets/TX Plant.png" id="2_aclqw"]
@@ -11,6 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://cly0r2r1ird43" path="res://assets/Tilesets/TX Shadow.png" id="9_85kw6"]
 [ext_resource type="PackedScene" uid="uid://dslud28t6ch5m" path="res://Objects/World.tscn" id="10_buo5g"]
 [ext_resource type="PackedScene" uid="uid://ca00b4yexwpku" path="res://Objects/WateringCan.tscn" id="11_5il5w"]
+[ext_resource type="PackedScene" uid="uid://bb2h3gihj38xc" path="res://Objects/Apple.tscn" id="12_5jqmp"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_msp56"]
 texture = ExtResource("2_gdl53")
@@ -5527,6 +5528,11 @@ inside_scene = SubResource("PackedScene_cetbi")
 
 [node name="WateringCan" parent="." instance=ExtResource("11_5il5w")]
 
+[node name="Apple" parent="." instance=ExtResource("12_5jqmp")]
+
 [connection signal="achieved" from="WateringCan" to="World" method="_on_watering_can_achieved"]
 [connection signal="activated" from="WateringCan" to="World" method="_on_watering_can_activated"]
 [connection signal="skipped" from="WateringCan" to="World" method="_on_watering_can_skipped"]
+[connection signal="achieved" from="Apple" to="World" method="_on_apple_achieved"]
+[connection signal="activated" from="Apple" to="World" method="_on_apple_activated"]
+[connection signal="skipped" from="Apple" to="World" method="_on_apple_skipped"]

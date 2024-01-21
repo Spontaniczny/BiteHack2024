@@ -5,13 +5,18 @@ class_name Collection
 const Properties = preload("res://scripts/achievements/AchievementProperties.gd")
 
 enum Achievement {
-	WATERING_CAN
+	WATERING_CAN,
+	APPLE
 }
 
 const information := {
 	Achievement.WATERING_CAN: {
-		"title": "Watering Can",
+		"title": "Gardenkeeper",
 		"description": "Pick up watering can"
+	},
+	Achievement.APPLE: {
+		"title": "Fresh fruit",
+		"description": "Pick up the poisoned apple"
 	}
 }
 

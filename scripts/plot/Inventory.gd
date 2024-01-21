@@ -1,7 +1,8 @@
 class_name Inventory
 
 enum Item {
-	WATERING_CAN
+	WATERING_CAN,
+	APPLE
 }
 
 var state: Dictionary
