@@ -1,9 +1,9 @@
-[gd_scene load_steps=19 format=3 uid="uid://c2jmaf5qe2e45"]
+[gd_scene load_steps=19 format=3 uid="uid://bd7mfnttybij4"]
 
 [ext_resource type="Script" path="res://WorldState.gd" id="1_yflbk"]
-[ext_resource type="Texture2D" uid="uid://72o0igw01k6a" path="res://assets/Tilesets/TX Tileset Grass.png" id="2_kyu6w"]
-[ext_resource type="Texture2D" uid="uid://cbnd7jd0vb6io" path="res://assets/Tilesets/TX Plant.png" id="3_hsrhg"]
-[ext_resource type="Texture2D" uid="uid://dphxonphb44pa" path="res://assets/Tilesets/TX Tileset Wall.png" id="4_bq1gs"]
+[ext_resource type="Texture2D" uid="uid://bmbdjkowbtrtw" path="res://assets/Tilesets/TX Tileset Grass.png" id="2_kyu6w"]
+[ext_resource type="Texture2D" uid="uid://dm0d2gxmo1wh2" path="res://assets/Tilesets/TX Plant.png" id="3_hsrhg"]
+[ext_resource type="Texture2D" uid="uid://drp80nxnnc6ck" path="res://assets/Tilesets/TX Tileset Wall.png" id="4_bq1gs"]
 [ext_resource type="PackedScene" uid="uid://d1dc60qdg6qx" path="res://Characters/player_cat.tscn" id="5_ah28t"]
 [ext_resource type="PackedScene" uid="uid://ca00b4yexwpku" path="res://Objects/WateringCan.tscn" id="6_20b1m"]
 [ext_resource type="Script" path="res://Objects/AchievementPopUp.gd" id="7_phyrn"]
@@ -2152,7 +2152,6 @@ shape = SubResource("RectangleShape2D_4o2lf")
 
 [node name="AchievementPopUp" type="PopupPanel" parent="."]
 size = Vector2i(193, 60)
-visible = true
 script = ExtResource("7_phyrn")
 
 [node name="ColorRect" type="ColorRect" parent="AchievementPopUp"]

@@ -1,70 +1,70 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1705808865
-icon.svg::CompressedTexture2D::1767471348015307544::1705808262::1705808262::1::::<><>::
-Main.gd::GDScript::-1::1705808262::0::1::::<>Node<>::
-WorldState.gd::GDScript::-1::1705808262::0::1::::WorldState<>Node<>::
-::res://assets/::1705808721
+::res://::1705810228
+icon.svg::CompressedTexture2D::1767471348015307544::1705748548::1705774092::1::::<><>::
+Main.gd::GDScript::-1::1705774064::0::1::::<>Node<>::
+WorldState.gd::GDScript::-1::1705809544::0::1::::WorldState<>Node<>::
+::res://assets/::1705809544
 dirt.png::::-1::0::0::0::::<><>::
-::res://assets/buldings/::1705808726
-house.png::CompressedTexture2D::4210087574302138466::1705808721::1705808726::1::::<><>::
-::res://assets/Characters/::1705808726
-Basic Charakter Actions.png::CompressedTexture2D::832321809160647556::1705808262::1705808262::1::::<><>::
-Basic Charakter Spritesheet.png::CompressedTexture2D::7228113134123062200::1705808262::1705808262::1::::<><>::
-Egg_And_Nest.png::CompressedTexture2D::155354998147319362::1705808262::1705808262::1::::<><>::
-Free Chicken Sprites.png::CompressedTexture2D::1734554445044780556::1705808262::1705808262::1::::<><>::
-Free Cow Sprites.png::CompressedTexture2D::6953904870611874909::1705808262::1705808262::1::::<><>::
-Gardener.png::CompressedTexture2D::1412713510717383532::1705808721::1705808726::1::::<><>::
-Knight-1.png::CompressedTexture2D::9220341457329638865::1705808721::1705808726::1::::<><>::
-Knight-1_idle.png::CompressedTexture2D::6767677577538712598::1705808721::1705808726::1::::<><>::
-Knight.png::CompressedTexture2D::5440635591597166786::1705808721::1705808726::1::::<><>::
-Maid-1.png::CompressedTexture2D::5489819339930065703::1705808721::1705808726::1::::<><>::
-Tools.png::CompressedTexture2D::7728140433641817349::1705808262::1705808262::1::::<><>::
-::res://assets/Fonts/::1705808262
-Minecraft.ttf::FontFile::526210920096602694::1705808262::1705808262::1::::<><>::
-::res://assets/Tilesets/::1705808726
-TopDownHouse_DoorsAndWindows.png::CompressedTexture2D::2347686020941204921::1705808721::1705808726::1::::<><>::
-TopDownHouse_FloorsAndWalls.png::CompressedTexture2D::1543312744039663917::1705808721::1705808726::1::::<><>::
-TopDownHouse_FurnitureState1.png::CompressedTexture2D::5798373635532946535::1705808721::1705808726::1::::<><>::
-TopDownHouse_FurnitureState2.png::CompressedTexture2D::5408818557839009339::1705808721::1705808726::1::::<><>::
-TopDownHouse_SmallItems.png::CompressedTexture2D::6092439277724468452::1705808721::1705808726::1::::<><>::
-TX Plant.png::CompressedTexture2D::4870106896718856274::1705808262::1705808721::1::::<><>::
-TX Player.png::CompressedTexture2D::5722161834630988432::1705808262::1705808721::1::::<><>::
-TX Props.png::CompressedTexture2D::78171821054472322::1705808262::1705808721::1::::<><>::
-TX Shadow Plant.png::CompressedTexture2D::695530359497803723::1705808262::1705808721::1::::<><>::
-TX Shadow.png::CompressedTexture2D::8615779790932844717::1705808262::1705808721::1::::<><>::
-TX Struct.png::CompressedTexture2D::3015260824869559139::1705808262::1705808721::1::::<><>::
-TX Tileset Grass.png::CompressedTexture2D::2302676309012653030::1705808262::1705808721::1::::<><>::
-TX Tileset Stone Ground.png::CompressedTexture2D::1221269242606017836::1705808262::1705808721::1::::<><>::
-TX Tileset Wall.png::CompressedTexture2D::8227967548172680842::1705808262::1705808721::1::::<><>::
-::res://Characters/::1705808757
-npc_gardener.gd::GDScript::-1::1705808721::0::1::::<>CharacterBody2D<>::
-npc_gardener.tscn::PackedScene::-1::1705808721::0::1::::<><>::
-npc_maid.gd::GDScript::-1::1705808721::0::1::::<>CharacterBody2D<>::
-npc_maid.tscn::PackedScene::-1::1705808721::0::1::::<><>::
-player_cat.gd::GDScript::-1::1705808757::0::1::::<>CharacterBody2D<>::
-player_cat.tscn::PackedScene::264427742660973395::1705808262::0::1::::<><>::res://Characters/player_cat.gd<>uid://da8l75f6ba7w3::::res://assets/Characters/Basic Charakter Spritesheet.png
-::res://Levels/::1705808868
-main.tscn::PackedScene::-1::1705808721::0::1::::<><>::
-npc_test.tscn::PackedScene::9027003795755615710::1705808868::0::1::::<><>::uid://72o0igw01k6a::::res://assets/Tilesets/TX Tileset Grass.png<>uid://cbnd7jd0vb6io::::res://assets/Tilesets/TX Plant.png<>uid://dphxonphb44pa::::res://assets/Tilesets/TX Tileset Wall.png<>uid://d1dc60qdg6qx::::res://Characters/player_cat.tscn<>res://Characters/npc_maid.tscn<>res://Characters/npc_gardener.tscn
-prototype.tscn::PackedScene::6687248459007074208::1705808868::0::1::::<><>::res://WorldState.gd<>uid://72o0igw01k6a::::res://assets/Tilesets/TX Tileset Grass.png<>uid://cbnd7jd0vb6io::::res://assets/Tilesets/TX Plant.png<>uid://dphxonphb44pa::::res://assets/Tilesets/TX Tileset Wall.png<>uid://d1dc60qdg6qx::::res://Characters/player_cat.tscn<>uid://ca00b4yexwpku::::res://Objects/WateringCan.tscn<>res://Objects/AchievementPopUp.gd<>uid://hq5u8hsbyvqc::::res://assets/Fonts/Minecraft.ttf
-::res://Objects/::1705808868
-AchievementPopUp.gd::GDScript::-1::1705808262::0::1::::<>PopupPanel<>::
-AchievementPopUp.tscn::PackedScene::1096991625296668555::1705808868::0::1::::<><>::
-WateringCan.tscn::PackedScene::4825972082316582980::1705808868::0::1::::<><>::uid://didtlxqsvsxlt::::res://assets/Characters/Tools.png<>res://Objects/WateringCanArea.gd
-WateringCanArea.gd::GDScript::-1::1705808262::0::1::::<>Area2D<>::
-::res://saves/::1705808262
-achievements.json::JSON::-1::1705808262::0::1::::<><>::
-::res://scenes/::1705808721
-basement.gd::GDScript::-1::1705808721::0::1::::<>Node2D<>::
-basement.tscn::PackedScene::-1::1705808721::0::1::::<><>::
-house.gd::GDScript::-1::1705808721::0::1::::<>Node2D<>::
-house.tscn::PackedScene::-1::1705808721::0::1::::<><>::
-interior.tscn::PackedScene::-1::1705808721::0::1::::<><>::
-main.tscn::PackedScene::1226447618555226141::1705808262::0::1::::<><>::res://WorldState.gd
-::res://scripts/::1705808262
-::res://scripts/achievements/::1705808262
-AchievementProperties.gd::GDScript::-1::1705808262::0::1::::AchievementProperties<>RefCounted<>::
-Collection.gd::GDScript::-1::1705808262::0::1::::Collection<>Node<>::
-::res://scripts/plot/::1705808262
-Plot.gd::GDScript::-1::1705808262::0::1::::<>Node<>::
-Trigger.gd::GDScript::-1::1705808262::0::1::::Trigger<>Node<>::
+::res://assets/buldings/::1705803420
+house.png::CompressedTexture2D::4210087574302138466::1705803420::1705803420::1::::<><>::
+::res://assets/Characters/::1705809539
+Basic Charakter Actions.png::CompressedTexture2D::832321809160647556::1705774064::1705774092::1::::<><>::
+Basic Charakter Spritesheet.png::CompressedTexture2D::7228113134123062200::1705774064::1705774092::1::::<><>::
+Egg_And_Nest.png::CompressedTexture2D::155354998147319362::1705774064::1705774092::1::::<><>::
+Free Chicken Sprites.png::CompressedTexture2D::1734554445044780556::1705774064::1705774092::1::::<><>::
+Free Cow Sprites.png::CompressedTexture2D::6953904870611874909::1705774064::1705774092::1::::<><>::
+Gardener.png::CompressedTexture2D::1412713510717383532::1705809539::1705809539::1::::<><>::
+Knight-1.png::CompressedTexture2D::9220341457329638865::1705809539::1705809539::1::::<><>::
+Knight-1_idle.png::CompressedTexture2D::6767677577538712598::1705809539::1705809539::1::::<><>::
+Knight.png::CompressedTexture2D::5440635591597166786::1705809539::1705809539::1::::<><>::
+Maid-1.png::CompressedTexture2D::5489819339930065703::1705809539::1705809539::1::::<><>::
+Tools.png::CompressedTexture2D::7728140433641817349::1705774064::1705774092::1::::<><>::
+::res://assets/Fonts/::1705809550
+Minecraft.ttf::FontFile::526210920096602694::1705809544::1705809550::1::::<><>::
+::res://assets/Tilesets/::1705803420
+TopDownHouse_DoorsAndWindows.png::CompressedTexture2D::2347686020941204921::1705803420::1705803420::1::::<><>::
+TopDownHouse_FloorsAndWalls.png::CompressedTexture2D::1543312744039663917::1705803420::1705803420::1::::<><>::
+TopDownHouse_FurnitureState1.png::CompressedTexture2D::5798373635532946535::1705803420::1705803420::1::::<><>::
+TopDownHouse_FurnitureState2.png::CompressedTexture2D::5408818557839009339::1705803420::1705803420::1::::<><>::
+TopDownHouse_SmallItems.png::CompressedTexture2D::6092439277724468452::1705803420::1705803420::1::::<><>::
+TX Plant.png::CompressedTexture2D::8053368337236501585::1705768931::1705803420::1::::<><>::
+TX Player.png::CompressedTexture2D::2328944565927531733::1705768931::1705803420::1::::<><>::
+TX Props.png::CompressedTexture2D::5380118355625157678::1705768931::1705803420::1::::<><>::
+TX Shadow Plant.png::CompressedTexture2D::2542276858731239081::1705768931::1705803420::1::::<><>::
+TX Shadow.png::CompressedTexture2D::5596013442402351114::1705768931::1705803420::1::::<><>::
+TX Struct.png::CompressedTexture2D::954328675346409753::1705768931::1705803420::1::::<><>::
+TX Tileset Grass.png::CompressedTexture2D::3230949956089438920::1705768931::1705803420::1::::<><>::
+TX Tileset Stone Ground.png::CompressedTexture2D::3603426899097956043::1705768931::1705803420::1::::<><>::
+TX Tileset Wall.png::CompressedTexture2D::8385487083787866890::1705768931::1705803420::1::::<><>::
+::res://Characters/::1705809544
+npc_gardener.gd::GDScript::-1::1705809539::0::1::::<>CharacterBody2D<>::
+npc_gardener.tscn::PackedScene::-1::1705809539::0::1::::<><>::
+npc_maid.gd::GDScript::-1::1705809539::0::1::::<>CharacterBody2D<>::
+npc_maid.tscn::PackedScene::-1::1705809539::0::1::::<><>::
+player_cat.gd::GDScript::-1::1705809544::0::1::::<>CharacterBody2D<>::
+player_cat.tscn::PackedScene::264427742660973395::1705809539::0::1::::<><>::res://Characters/player_cat.gd<>uid://cjrqqde36ay8q::::res://assets/Characters/Knight.png
+::res://Levels/::1705810300
+main.tscn::PackedScene::6687248459007074208::1705810300::0::1::::<><>::uid://d1dc60qdg6qx::::res://Characters/player_cat.tscn<>uid://dm0d2gxmo1wh2::::res://assets/Tilesets/TX Plant.png<>uid://bmbdjkowbtrtw::::res://assets/Tilesets/TX Tileset Grass.png<>uid://drp80nxnnc6ck::::res://assets/Tilesets/TX Tileset Wall.png<>uid://1dwifj1lueyk::::res://scenes/house.tscn<>uid://1eqkr1k3fj2f::::res://scenes/basement.tscn
+npc_test.tscn::PackedScene::8745337092896498673::1705810300::0::1::::<><>::uid://bmbdjkowbtrtw::::res://assets/Tilesets/TX Tileset Grass.png<>uid://dm0d2gxmo1wh2::::res://assets/Tilesets/TX Plant.png<>uid://drp80nxnnc6ck::::res://assets/Tilesets/TX Tileset Wall.png<>uid://d1dc60qdg6qx::::res://Characters/player_cat.tscn<>res://Characters/npc_maid.tscn<>res://Characters/npc_gardener.tscn
+prototype.tscn::PackedScene::2663785548670062871::1705810300::0::1::::<><>::res://WorldState.gd<>uid://bmbdjkowbtrtw::::res://assets/Tilesets/TX Tileset Grass.png<>uid://dm0d2gxmo1wh2::::res://assets/Tilesets/TX Plant.png<>uid://drp80nxnnc6ck::::res://assets/Tilesets/TX Tileset Wall.png<>uid://d1dc60qdg6qx::::res://Characters/player_cat.tscn<>uid://ca00b4yexwpku::::res://Objects/WateringCan.tscn<>res://Objects/AchievementPopUp.gd<>uid://hq5u8hsbyvqc::::res://assets/Fonts/Minecraft.ttf
+::res://Objects/::1705809544
+AchievementPopUp.gd::GDScript::-1::1705809544::0::1::::<>PopupPanel<>::
+AchievementPopUp.tscn::PackedScene::1096991625296668555::1705809544::0::1::::<><>::
+WateringCan.tscn::PackedScene::4825972082316582980::1705809544::0::1::::<><>::uid://didtlxqsvsxlt::::res://assets/Characters/Tools.png<>res://Objects/WateringCanArea.gd
+WateringCanArea.gd::GDScript::-1::1705809544::0::1::::<>Area2D<>::
+::res://saves/::1705809544
+achievements.json::JSON::-1::1705809544::0::1::::<><>::
+::res://scenes/::1705810300
+basement.gd::GDScript::-1::1705809539::0::1::::<>Node2D<>::
+basement.tscn::PackedScene::1834157708982240231::1705810299::0::1::::<><>::res://scenes/basement.gd<>uid://brlr6dh5vtj3h::::res://assets/Tilesets/TX Tileset Stone Ground.png<>uid://ciwf07lv4y3gc::::res://assets/Tilesets/TX Props.png<>uid://cly0r2r1ird43::::res://assets/Tilesets/TX Shadow.png<>uid://d1dc60qdg6qx::::res://Characters/player_cat.tscn
+house.gd::GDScript::-1::1705810180::0::1::::<>Node2D<>::
+house.tscn::PackedScene::1832453405759925402::1705810300::0::1::::<><>::res://scenes/house.gd<>uid://b08nr6q6q8fok::::res://assets/buldings/house.png
+interior.tscn::PackedScene::3966370244177612794::1705810299::0::1::::<><>::uid://v8ueusj7w4g4::::res://assets/Tilesets/TopDownHouse_FloorsAndWalls.png<>uid://cjccpl3gsgks6::::res://assets/Tilesets/TopDownHouse_FurnitureState2.png<>uid://ciwf07lv4y3gc::::res://assets/Tilesets/TX Props.png<>uid://8pibs5xwjabp::::res://assets/Tilesets/TopDownHouse_DoorsAndWindows.png
+main.tscn::PackedScene::-1::1705809544::0::1::::<><>::
+::res://scripts/::1705809544
+::res://scripts/achievements/::1705809544
+AchievementProperties.gd::GDScript::-1::1705809544::0::1::::AchievementProperties<>RefCounted<>::
+Collection.gd::GDScript::-1::1705809544::0::1::::Collection<>Node<>::
+::res://scripts/plot/::1705809544
+Plot.gd::GDScript::-1::1705809544::0::1::::<>Node<>::
+Trigger.gd::GDScript::-1::1705774064::0::1::::Trigger<>Node<>::
