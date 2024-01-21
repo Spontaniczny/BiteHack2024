@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1705810228
+::res://::1705810816
 icon.svg::CompressedTexture2D::1767471348015307544::1705748548::1705774092::1::::<><>::
 Main.gd::GDScript::-1::1705774064::0::1::::<>Node<>::
 WorldState.gd::GDScript::-1::1705809544::0::1::::WorldState<>Node<>::
@@ -43,10 +43,10 @@ npc_maid.gd::GDScript::-1::1705809539::0::1::::<>CharacterBody2D<>::
 npc_maid.tscn::PackedScene::-1::1705809539::0::1::::<><>::
 player_cat.gd::GDScript::-1::1705809544::0::1::::<>CharacterBody2D<>::
 player_cat.tscn::PackedScene::264427742660973395::1705809539::0::1::::<><>::res://Characters/player_cat.gd<>uid://cjrqqde36ay8q::::res://assets/Characters/Knight.png
-::res://Levels/::1705810300
-main.tscn::PackedScene::6687248459007074208::1705810300::0::1::::<><>::uid://d1dc60qdg6qx::::res://Characters/player_cat.tscn<>uid://dm0d2gxmo1wh2::::res://assets/Tilesets/TX Plant.png<>uid://bmbdjkowbtrtw::::res://assets/Tilesets/TX Tileset Grass.png<>uid://drp80nxnnc6ck::::res://assets/Tilesets/TX Tileset Wall.png<>uid://1dwifj1lueyk::::res://scenes/house.tscn<>uid://1eqkr1k3fj2f::::res://scenes/basement.tscn
-npc_test.tscn::PackedScene::8745337092896498673::1705810300::0::1::::<><>::uid://bmbdjkowbtrtw::::res://assets/Tilesets/TX Tileset Grass.png<>uid://dm0d2gxmo1wh2::::res://assets/Tilesets/TX Plant.png<>uid://drp80nxnnc6ck::::res://assets/Tilesets/TX Tileset Wall.png<>uid://d1dc60qdg6qx::::res://Characters/player_cat.tscn<>res://Characters/npc_maid.tscn<>res://Characters/npc_gardener.tscn
-prototype.tscn::PackedScene::2663785548670062871::1705810300::0::1::::<><>::res://WorldState.gd<>uid://bmbdjkowbtrtw::::res://assets/Tilesets/TX Tileset Grass.png<>uid://dm0d2gxmo1wh2::::res://assets/Tilesets/TX Plant.png<>uid://drp80nxnnc6ck::::res://assets/Tilesets/TX Tileset Wall.png<>uid://d1dc60qdg6qx::::res://Characters/player_cat.tscn<>uid://ca00b4yexwpku::::res://Objects/WateringCan.tscn<>res://Objects/AchievementPopUp.gd<>uid://hq5u8hsbyvqc::::res://assets/Fonts/Minecraft.ttf
+::res://Levels/::1705810819
+main.tscn::PackedScene::6687248459007074208::1705810819::0::1::::<><>::uid://d1dc60qdg6qx::::res://Characters/player_cat.tscn<>uid://dm0d2gxmo1wh2::::res://assets/Tilesets/TX Plant.png<>uid://bmbdjkowbtrtw::::res://assets/Tilesets/TX Tileset Grass.png<>uid://drp80nxnnc6ck::::res://assets/Tilesets/TX Tileset Wall.png<>uid://1dwifj1lueyk::::res://scenes/house.tscn<>res://scenes/basement.gd<>uid://brlr6dh5vtj3h::::res://assets/Tilesets/TX Tileset Stone Ground.png<>uid://ciwf07lv4y3gc::::res://assets/Tilesets/TX Props.png<>uid://cly0r2r1ird43::::res://assets/Tilesets/TX Shadow.png
+npc_test.tscn::PackedScene::8745337092896498673::1705810819::0::1::::<><>::uid://bmbdjkowbtrtw::::res://assets/Tilesets/TX Tileset Grass.png<>uid://dm0d2gxmo1wh2::::res://assets/Tilesets/TX Plant.png<>uid://drp80nxnnc6ck::::res://assets/Tilesets/TX Tileset Wall.png<>uid://d1dc60qdg6qx::::res://Characters/player_cat.tscn<>res://Characters/npc_maid.tscn<>res://Characters/npc_gardener.tscn
+prototype.tscn::PackedScene::2663785548670062871::1705810819::0::1::::<><>::res://WorldState.gd<>uid://bmbdjkowbtrtw::::res://assets/Tilesets/TX Tileset Grass.png<>uid://dm0d2gxmo1wh2::::res://assets/Tilesets/TX Plant.png<>uid://drp80nxnnc6ck::::res://assets/Tilesets/TX Tileset Wall.png<>uid://d1dc60qdg6qx::::res://Characters/player_cat.tscn<>uid://ca00b4yexwpku::::res://Objects/WateringCan.tscn<>res://Objects/AchievementPopUp.gd<>uid://hq5u8hsbyvqc::::res://assets/Fonts/Minecraft.ttf
 ::res://Objects/::1705809544
 AchievementPopUp.gd::GDScript::-1::1705809544::0::1::::<>PopupPanel<>::
 AchievementPopUp.tscn::PackedScene::1096991625296668555::1705809544::0::1::::<><>::
@@ -54,12 +54,12 @@ WateringCan.tscn::PackedScene::4825972082316582980::1705809544::0::1::::<><>::ui
 WateringCanArea.gd::GDScript::-1::1705809544::0::1::::<>Area2D<>::
 ::res://saves/::1705809544
 achievements.json::JSON::-1::1705809544::0::1::::<><>::
-::res://scenes/::1705810300
+::res://scenes/::1705810819
 basement.gd::GDScript::-1::1705809539::0::1::::<>Node2D<>::
-basement.tscn::PackedScene::1834157708982240231::1705810299::0::1::::<><>::res://scenes/basement.gd<>uid://brlr6dh5vtj3h::::res://assets/Tilesets/TX Tileset Stone Ground.png<>uid://ciwf07lv4y3gc::::res://assets/Tilesets/TX Props.png<>uid://cly0r2r1ird43::::res://assets/Tilesets/TX Shadow.png<>uid://d1dc60qdg6qx::::res://Characters/player_cat.tscn
+basement.tscn::PackedScene::1834157708982240231::1705810818::0::1::::<><>::res://scenes/basement.gd<>uid://brlr6dh5vtj3h::::res://assets/Tilesets/TX Tileset Stone Ground.png<>uid://ciwf07lv4y3gc::::res://assets/Tilesets/TX Props.png<>uid://cly0r2r1ird43::::res://assets/Tilesets/TX Shadow.png<>uid://d1dc60qdg6qx::::res://Characters/player_cat.tscn
 house.gd::GDScript::-1::1705810180::0::1::::<>Node2D<>::
-house.tscn::PackedScene::1832453405759925402::1705810300::0::1::::<><>::res://scenes/house.gd<>uid://b08nr6q6q8fok::::res://assets/buldings/house.png
-interior.tscn::PackedScene::3966370244177612794::1705810299::0::1::::<><>::uid://v8ueusj7w4g4::::res://assets/Tilesets/TopDownHouse_FloorsAndWalls.png<>uid://cjccpl3gsgks6::::res://assets/Tilesets/TopDownHouse_FurnitureState2.png<>uid://ciwf07lv4y3gc::::res://assets/Tilesets/TX Props.png<>uid://8pibs5xwjabp::::res://assets/Tilesets/TopDownHouse_DoorsAndWindows.png
+house.tscn::PackedScene::1832453405759925402::1705810819::0::1::::<><>::res://scenes/house.gd<>uid://b08nr6q6q8fok::::res://assets/buldings/house.png
+interior.tscn::PackedScene::3966370244177612794::1705810818::0::1::::<><>::uid://v8ueusj7w4g4::::res://assets/Tilesets/TopDownHouse_FloorsAndWalls.png<>uid://cjccpl3gsgks6::::res://assets/Tilesets/TopDownHouse_FurnitureState2.png<>uid://ciwf07lv4y3gc::::res://assets/Tilesets/TX Props.png<>uid://8pibs5xwjabp::::res://assets/Tilesets/TopDownHouse_DoorsAndWindows.png
 main.tscn::PackedScene::-1::1705809544::0::1::::<><>::
 ::res://scripts/::1705809544
 ::res://scripts/achievements/::1705809544
