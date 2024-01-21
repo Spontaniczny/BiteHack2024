@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://8gfm2rkigder"
-path="res://.godot/imported/TX Player.png-07da901eadadbb1334dcfb4b106d0289.ctex"
+uid="uid://c3okwqbjhndgg"
+path="res://.godot/imported/Knight-1_idle.png-3037387ce9ac0f10df062e5b04f39ead.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Tilesets/TX Player.png"
-dest_files=["res://.godot/imported/TX Player.png-07da901eadadbb1334dcfb4b106d0289.ctex"]
+source_file="res://assets/Characters/Knight-1_idle.png"
+dest_files=["res://.godot/imported/Knight-1_idle.png-3037387ce9ac0f10df062e5b04f39ead.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://8gfm2rkigder"
-path="res://.godot/imported/TX Player.png-07da901eadadbb1334dcfb4b106d0289.ctex"
+uid="uid://cou1mp22fw432"
+path="res://.godot/imported/TopDownHouse_FurnitureState1.png-edabb4d5ef42a11aef022be178fc0387.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Tilesets/TX Player.png"
-dest_files=["res://.godot/imported/TX Player.png-07da901eadadbb1334dcfb4b106d0289.ctex"]
+source_file="res://assets/Tilesets/TopDownHouse_FurnitureState1.png"
+dest_files=["res://.godot/imported/TopDownHouse_FurnitureState1.png-edabb4d5ef42a11aef022be178fc0387.ctex"]
 
 [params]
 
