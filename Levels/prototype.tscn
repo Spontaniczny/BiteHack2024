@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://bd7mfnttybij4"]
+[gd_scene load_steps=19 format=3 uid="uid://rki1ax6wsgl4"]
 
 [ext_resource type="Script" path="res://WorldState.gd" id="1_yflbk"]
 [ext_resource type="Texture2D" uid="uid://bmbdjkowbtrtw" path="res://assets/Tilesets/TX Tileset Grass.png" id="2_kyu6w"]
@@ -2119,7 +2119,7 @@ font_color = Color(0, 0, 0, 1)
 font_size = 12
 font_color = Color(0, 0, 0, 1)
 
-[node name="main" type="Node2D"]
+[node name="main2" type="Node2D"]
 script = ExtResource("1_yflbk")
 
 [node name="TileMap" type="TileMap" parent="."]
