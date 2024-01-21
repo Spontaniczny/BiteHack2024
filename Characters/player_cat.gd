@@ -2,6 +2,17 @@ extends CharacterBody2D
 
 @export var move_speed: float = 75
 
+var house = null 
+
+func set_house(new_house):
+	house = new_house
+	
+func _ready():
+	set_house(null)
+	
+func _unhandled_input(event):
+	if event is InputEventKey and event.is_action_pressed("Interact") and house != null:
+		house.enter()
 
 func _physics_process(delta):
 	# get input

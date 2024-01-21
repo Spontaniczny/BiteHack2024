@@ -9,6 +9,7 @@ size = Vector2(10, 6)
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_w76hy"]
 
 [node name="PlayerCat" type="CharacterBody2D"]
+position = Vector2(0, -8)
 script = ExtResource("1_ca8yp")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
